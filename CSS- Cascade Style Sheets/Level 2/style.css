@@ -3,14 +3,18 @@ p{
     font-weight: 550;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 #first{
+    text-align:center;
+    text-decoration: green overline;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#second{
     text-align:center;
     text-decoration: red underline;
     font-weight: 300;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#second{
-    text-align:center;
-    text-decoration: green overline;
-    font-weight: 700;
+    font-size: 30px;
 }
