@@ -1,12 +1,13 @@
 p{
     text-align: center;
     font-weight: 550;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #first{
     text-align:center;
     text-decoration: red underline;
     font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #second{
     text-align:center;
