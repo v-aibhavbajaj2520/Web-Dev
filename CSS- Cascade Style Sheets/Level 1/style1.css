@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+h1{
+    color: rebeccapurple;
+}
+
+p{
+    color:darkviolet;
+}
+
+input{
+    border-radius: 40px 0px 20px 40px;
+    outline: none;
+}
+
+input:focus{
+    border: 1px blue dashed;
+}
+
+.india{
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #ff9933,
+    #ffffff, #0deb0d);
+    color: transparent;
+    background-clip: text;
+}
