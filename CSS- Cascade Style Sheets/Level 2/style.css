@@ -12,8 +12,11 @@ h1{
     height: 50px;
     width: 200px;
     background-color: violet;
-    border-style: dashed;
+    /*border-style: dashed;
     border-color: brown;
     border-width: 3px;
+    OR */
+    border: 3px dashed brown;
     text-align: center;
+
 }
