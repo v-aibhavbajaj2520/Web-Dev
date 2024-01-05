@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    background-color: #0f1111;
+    height: 50px;
+    width: 1367px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    padding-left: 150px;
+}
+#site{
+    color: rgb(231, 147, 21);
+    padding-left: 10px;
+}
+
+input{
+    margin-left:150px;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}
+
+.content{
+    height: 100px;
+    width: 100px;
+    border: 3px #0f1111 solid;
+    display: inline-block;
+    margin-bottom: 355px;
+}
+#first{
+    background-color: rgba(255,0,0,0.5);
+    height: 120px;
+}
+#second{
+    background-color: rgba(0,255,0,0.5);
+    height: 120px;
+}
+#third{
+    background-color: rgba(0,0,255,0.5);
+    height: 120px;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+    width: 1367px;
+}
