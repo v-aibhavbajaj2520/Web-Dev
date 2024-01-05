@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
 div{
     background-color: #0f1111;
     height: 50px;
@@ -5,12 +10,11 @@ div{
     padding-top: 10px;
 }
 a{
-    color: white;
     text-decoration: none;
     padding-left: 150px;
 }
 #site{
-    color: rgb(228, 231, 24);
+    color: rgb(231, 147, 21);
     padding-left: 10px;
 }
 
