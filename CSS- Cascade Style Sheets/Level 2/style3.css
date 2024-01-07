@@ -5,3 +5,14 @@ div{
     border: 2px solid black;
     display: inline-block;
 }
+
+#box1{
+    position: static; 
+    /* Top/ Bottom/ Right/ Left Doesn't Work*/
+}
+
+#box2{
+    position: relative;
+    top:20px;
+    left: 10px;
+}
