@@ -20,12 +20,12 @@ div{
 #box4{
     position:fixed;
     top: 10px;
-    left: 250px;
+    right: 250px;
 }
 
 #box3{
-    position: sticky;
-    left: 200px;
+    position: fixed;
+    right: 200px;
     top: 10px;
 }
 
@@ -63,6 +63,12 @@ h1{
 
 #box9{
     background-image: url(bg_photo.jpg);
-    height: 500px;
+    height: 400px;
     width: 500px;
+    background-size: cover;
+    color: red;
+    text-align: right;
+    padding-top: 390px;
+    padding-right: 125px;
+    font-size: 40px
 }
