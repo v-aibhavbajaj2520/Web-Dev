@@ -60,3 +60,9 @@ h1{
     position: sticky;
     left: 300px;
 }
+
+#box9{
+    background-image: url(bg_photo.jpg);
+    height: 500px;
+    width: 500px;
+}
