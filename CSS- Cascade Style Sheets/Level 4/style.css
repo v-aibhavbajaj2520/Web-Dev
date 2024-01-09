@@ -4,30 +4,43 @@ body{
 
 div{
     height: 100px;
-    width: 100px;
+    width: 125px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container{
     width: 800px;
-    height: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap:wrap;
+    align-items:flex-start;
+    align-content: flex-start; for appling properties of flex items */ 
 }
 
 #box1{
     background-color: aqua;
+    flex-shrink: 3;
 }
 
 #box2{
     background-color: pink;
+    flex-grow: 5;
+    /*height: 30%;
+    align-self:center ; */
 }
 
 #box3{
-    background-color:burlywood;
+    background-color:slateblue;
+    /* align-self: flex-end; */
 }
 
-#box1{
+#box4{
     background-color:gray;
+    flex-shrink: 0.5;
+    flex-grow: 2;
 }
 
 #box5{
