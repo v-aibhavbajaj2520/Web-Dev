@@ -4,4 +4,14 @@
     border-radius: 50%;
     border: 5px solid #FFE66D;
     border-top: 5px solid #4ECDC4;
+    /*animation-name: rotator;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite ;*/
+    animation: rotator 4s ease-in infinite;
+}
+
+@keyframes rotator {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
