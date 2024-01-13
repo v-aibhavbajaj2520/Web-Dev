@@ -30,9 +30,23 @@
     font-weight: 200px;
     transition: all;
     transition-duration: 5s;
-    transition-timing-function:steps(10) ;
 }
 
 #Transforms:hover{
     transform: rotate(180deg);
+}
+
+#translate{
+    height: 100px;
+    width: 100px;
+    background-color:dimgrey;
+    position: absolute;
+    left: 350px;
+    transition: all 2s ease-in;
+}
+
+#translate:hover{
+/*    transform: translateX(200px);
+    transform: translateY(200px);*/
+    transform: translate(100px,-80px);
 }
