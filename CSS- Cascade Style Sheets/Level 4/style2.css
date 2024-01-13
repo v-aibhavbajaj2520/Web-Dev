@@ -14,3 +14,8 @@ div{
         background-color:red;
     }
 }
+@media (min-width:620px) and (max-width:680px){
+        div{
+            background-color:blueviolet;
+        }
+}
