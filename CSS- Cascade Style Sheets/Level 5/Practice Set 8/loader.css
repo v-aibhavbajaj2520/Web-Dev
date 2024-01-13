@@ -2,5 +2,6 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border-top: 5px solid black;
+    border: 5px solid #FFE66D;
+    border-top: 5px solid #4ECDC4;
 }
