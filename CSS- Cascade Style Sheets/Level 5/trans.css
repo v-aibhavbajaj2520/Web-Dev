@@ -1,0 +1,38 @@
+#Transitions{
+    height: 100px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5);
+/*    transition-delay: 1s; */
+}
+
+#Transitions:hover{
+    height: 200px;
+    width: 180px;
+    background-color: rgb(22, 99, 145);
+    color: white;
+}
+
+#Transitions:active{
+    height: 250px;
+    width: 220px;
+    background-color: rgb(32, 30, 177);
+    color: white;
+}
+
+#Transforms{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    font-weight: 200px;
+    transition: all;
+    transition-duration: 5s;
+    transition-timing-function:steps(10) ;
+}
+
+#Transforms:hover{
+    transform: rotate(180deg);
+}
