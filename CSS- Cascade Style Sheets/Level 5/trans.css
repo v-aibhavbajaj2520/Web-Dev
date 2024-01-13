@@ -1,0 +1,52 @@
+#Transitions{
+    height: 100px;
+    width: 80px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5);
+/*    transition-delay: 1s; */
+}
+
+#Transitions:hover{
+    height: 200px;
+    width: 180px;
+    background-color: rgb(22, 99, 145);
+    color: white;
+}
+
+#Transitions:active{
+    height: 250px;
+    width: 220px;
+    background-color: rgb(32, 30, 177);
+    color: white;
+}
+
+#Transforms{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    font-weight: 200px;
+    transition: all;
+    transition-duration: 5s;
+}
+
+#Transforms:hover{
+    transform: rotate(180deg);
+}
+
+#translate{
+    height: 100px;
+    width: 100px;
+    background-color:dimgrey;
+    position: absolute;
+    left: 350px;
+    transition: all 2s ease-in;
+}
+
+#translate:hover{
+/*    transform: translateX(200px);
+    transform: translateY(200px);*/
+    transform: translate(100px,-80px);
+}
