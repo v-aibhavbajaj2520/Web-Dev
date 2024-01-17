@@ -190,7 +190,7 @@ span{
 
 .box{
     height: 400px;
-    width: 22%;
+    width: 24%;
     padding: 20px 0px 15px;
     margin-top: 1rem;
 }
@@ -206,4 +206,36 @@ span{
     background-repeat: no-repeat;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.image{
+    height: 100px;
+    width: 130px;
+}
+
+.multi-image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    background-image: url("Images/Pic.jpg");
+    background-size: cover;
+}
+
+.image2{
+    background-image: url("Images/pic-1.jpg");
+    background-size: cover;
+}
+
+.image3{
+    background-image: url("Images/pic-2.jpg");
+    background-size: cover;
+}
+
+.image4{
+    background-image: url("Images/pic-3.jpg");
+    background-size: cover;
 }
