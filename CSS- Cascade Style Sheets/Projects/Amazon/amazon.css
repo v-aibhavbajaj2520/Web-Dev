@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+input:focus {
+    outline: none;
+}
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -58,12 +62,11 @@
     width: 575px;
     height: 40px;
     border-radius: 4px;
-    padding: 10px 4px 10px 3px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav-search:hover{
+.nav-search:focus-within{
     border: 2px solid #febd68;
 }
 
@@ -101,7 +104,7 @@
     width: 50px;
 }
 
-/* Box 4 Language Box */
+/* Box 4,5 */
 
 .nav-sign-in{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -114,4 +117,23 @@ span{
 .nav-account{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/** Box-6 Cart **/
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    padding: 2px;
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+/** Panel **/
+.panel{
+    position:fixed;
+    top:100px;
+    height: 50px;
+    background-color: #232f3e;
 }
