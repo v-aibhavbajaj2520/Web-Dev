@@ -185,14 +185,17 @@ span{
 
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: #e9eaf0;
 }
 
 .box{
     height: 400px;
-    width: 24%;
+    width: 23.7%;
     padding: 20px 0px 15px;
     margin-top: 1rem;
+    background-color: white;
 }
 
 .box-content1{
@@ -208,9 +211,23 @@ span{
     margin-bottom: 1rem;
 }
 
+.upp-box{
+    width: 262px;
+    height: 130px;
+    display: flex;
+    margin-top:0px ;
+}
+
+.low-box{
+    width: 262px;
+    height: 150px;
+    display: flex;
+    margin-top: 25px;
+}
+
 .image{
-    height: 100px;
-    width: 130px;
+    height: 110px;
+    width: 129px;
 }
 
 .multi-image{
@@ -220,6 +237,7 @@ span{
     justify-content: center;
     align-items: center;
 }
+
 .image1{
     background-image: url("Images/Pic.jpg");
     background-size: cover;
@@ -230,6 +248,20 @@ span{
     background-size: cover;
 }
 
+.headset{
+    position:absolute;
+    top: 656px;
+    left: 50px;
+    font-size: 8px;
+}
+
+.keyboard{
+    position:absolute;
+    top: 656px;
+    left: 180px;
+    font-size: 8px;
+}
+
 .image3{
     background-image: url("Images/pic-2.jpg");
     background-size: cover;
@@ -238,4 +270,114 @@ span{
 .image4{
     background-image: url("Images/pic-3.jpg");
     background-size: cover;
+}
+
+.mice{
+    position:absolute;
+    top: 803px;
+    left: 50px;
+    font-size: 8px;
+}
+
+.chair{
+    position:absolute;
+    top: 803px;
+    left: 180px;
+    font-size: 8px;
+}
+.see{
+    position:absolute;
+    top: 830px;
+    left: 50px;
+}
+.shop-section a{
+    font-size: 9px;
+}
+
+.image6i{
+    background-image: url("Images/box-6i.jpg");
+    background-size: cover;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.image6ii{
+    background-image: url("Images/box-6ii.jpg");
+    background-size: cover;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.image6iii{
+    background-image: url("Images/box-6iii.jpg");
+    background-size: cover;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.image6iv{
+    background-image: url("Images/box-6iv.jpg");
+    background-size: cover;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.dine{
+    position:absolute;
+    top: 1103px;
+    left: 390px;
+    font-size: 8px;
+}
+
+.home{
+    position:absolute;
+    top: 1103px;
+    left: 525px;
+    font-size: 8px;
+}
+
+.kitchen{
+    position:absolute;
+    top: 1258px;
+    left: 390px;
+    font-size: 8px;
+}
+
+.health{
+    position:absolute;
+    top: 1258px;
+    left: 520px;
+    font-size: 8px;
+}
+
+.see1{
+    position:absolute;
+    top: 1300px;
+    left: 390px;
+}
+
+.book-section{
+    height: 180px;
+    width: 1320px;
+    background-color: #ffffff;
+    
+}
+
+.books{
+    height: 80%;
+    display: flex;
+}
+
+.book-1{
+    height:100%;
+    background-image: url("Images/book-i.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.book-2{
+    height:100%;
+    background-image: url("Images/book-ii.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
