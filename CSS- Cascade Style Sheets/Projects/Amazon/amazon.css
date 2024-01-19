@@ -294,6 +294,7 @@ span{
     font-size: 9px;
 }
 
+/** MULTI IMAGE STARTS HERE **/
 .image6i{
     background-image: url("Images/box-6i.jpg");
     background-size: cover;
@@ -355,6 +356,8 @@ span{
     top: 1300px;
     left: 390px;
 }
+/** MULTI IMAGE ENDS HERE **/
+/** BOOK SECTION STARTS HERE **/
 
 .book-section{
     height: 180px;
@@ -368,16 +371,144 @@ span{
     display: flex;
 }
 
+.book{
+    height:88%;
+    width: 325px;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.left{
+    position: absolute;
+    left: 29px;
+    top: 1453px;
+    background-color: white;
+    font-size: 48px;
+}
+
+.right{
+    position: absolute;
+    right: 33px;
+    top: 1453px;
+    background-color: white;
+    font-size: 48px;
+}
+
 .book-1{
-    height:100%;
     background-image: url("Images/book-i.jpg");
-    background-size: contain;
+    background-size:90%;
     background-repeat: no-repeat;
 }
 
 .book-2{
-    height:100%;
     background-image: url("Images/book-ii.jpg");
-    background-size: contain;
+    background-size:90%;
     background-repeat: no-repeat;
 }
+
+.book-3{
+    background-image: url("Images/book-iii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-4{
+    background-image: url("Images/book-iv.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-5{
+    background-image: url("Images/book-v.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-6{
+    background-image: url("Images/book-vi.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-7{
+    background-image: url("Images/book-vii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-8{
+    background-image: url("Images/book-viii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-9{
+    background-image: url("Images/book-ix.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.book-10{
+    background-image: url("Images/book-x.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+/** BOOK SECTION ENDS HERE **/
+/** MULTI IMAGE STARTS HERE **/
+
+.image5{
+    background-image: url("Images/box-10-i.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.image6{
+    background-image: url("Images/box-10-ii.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+.t-shirt{
+    position:absolute;
+    top: 1775px;
+    left: 385px;
+    font-size: 8px;
+}
+
+.hat{
+    position:absolute;
+    top: 1775px;
+    left: 538px;
+    font-size: 8px;
+}
+
+.image7{
+    background-image: url("Images/box-10-iii.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+.image8{
+    background-image: url("Images/box-10-iv.jpg");
+    background-size: cover;
+}
+
+.fig{
+    position:absolute;
+    top: 1938px;
+    left: 385px;
+    font-size: 8px;
+}
+
+.mug{
+    position:absolute;
+    top: 1938px;
+    left: 528px;
+    font-size: 8px;
+}
+.see3{
+    position:absolute;
+    top: 1500px;
+    left: 50px;
+}
+/** MULTI IMAGE ENDS HERE **/
