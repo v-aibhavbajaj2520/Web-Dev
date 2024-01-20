@@ -698,3 +698,31 @@ ul a:hover{
     border-radius: 2.5px;
     color: white;
 }
+
+/** FOOTER Panel-4 **/
+
+.foot-panel4{
+    height: 100px;
+    background-color:#131A22;
+    font-size: 0.75rem;
+    text-align: center;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pages{
+    color: #DDDDDD;
+    padding-top: 32px;
+}
+
+.pages a{    
+    padding-left: 15px;
+    color: #DDDDDD;
+}
+
+.copyright{
+    color: #DDDDDD;
+    padding-top: 5px;
+}
