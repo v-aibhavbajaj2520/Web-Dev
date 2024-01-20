@@ -11,7 +11,7 @@ input:focus {
 
 .navbar{
     height: 60px;
-    background-color: #0f1111;
+    background-color: #18181f;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -99,12 +99,15 @@ input:focus {
     color: #0f1111;
 }
 
-/* Box 4 Language Box */
+/* Box 4 Language Box 
 
 .lang{
     width: 50px;
 }
-
+.lang-op{
+    background: transparent;
+}
+*/
 /* Box 4,5 */
 
 .nav-sign-in{
@@ -380,6 +383,7 @@ span{
 
 .left{
     position: absolute;
+    width: 35px;
     left: 29px;
     top: 1453px;
     background-color: white;
@@ -388,7 +392,8 @@ span{
 
 .right{
     position: absolute;
-    right: 33px;
+    width: 35px;
+    right: 26px;
     top: 1453px;
     background-color: white;
     font-size: 48px;
@@ -512,3 +517,100 @@ span{
     left: 50px;
 }
 /** MULTI IMAGE ENDS HERE **/
+/** MOVIE SECTION STARTS HERE **/
+
+.movie-section{
+    height: 180px;
+    width: 1320px;
+    background-color: #ffffff;
+    
+}
+
+.movies{
+    height: 80%;
+    display: flex;
+}
+
+.movie{
+    height:88%;
+    width: 325px;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.left1{
+    position: absolute;
+    left: 29px;
+    top: 2130px;
+    background-color: white;
+    font-size: 48px;
+}
+
+.right1{
+    position: absolute;
+    right: 26px;
+    top: 2130px;
+    background-color: white;
+    font-size: 48px;
+}
+
+.movie-1{
+    background-image: url("Images/movie-i.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-2{
+    background-image: url("Images/movie-ii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-3{
+    background-image: url("Images/movie-iii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-4{
+    background-image: url("Images/movie-iv.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-5{
+    background-image: url("Images/movie-v.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-6{
+    background-image: url("Images/movie-vi.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-7{
+    background-image: url("Images/movie-vii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-8{
+    background-image: url("Images/movie-viii.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-9{
+    background-image: url("Images/book-ix.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+.movie-10{
+    background-image: url("Images/movie-x.jpg");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+/** MOVIE SECTION ENDS HERE **/
