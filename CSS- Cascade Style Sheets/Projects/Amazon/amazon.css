@@ -253,6 +253,7 @@ span{
 }
 
 .headset{
+    color: rgb(32, 32, 35);
     position:absolute;
     top: 656px;
     left: 50px;
@@ -260,6 +261,7 @@ span{
 }
 
 .keyboard{
+    color: rgb(32, 32, 35);
     position:absolute;
     top: 656px;
     left: 180px;
@@ -277,6 +279,7 @@ span{
 }
 
 .mice{
+    color: rgb(32, 32, 35);
     position:absolute;
     top: 803px;
     left: 50px;
@@ -284,6 +287,7 @@ span{
 }
 
 .chair{
+    color: rgb(32, 32, 35);
     position:absolute;
     top: 803px;
     left: 180px;
