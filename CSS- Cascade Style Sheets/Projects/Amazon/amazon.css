@@ -638,3 +638,26 @@ footer{
 .foot-panel1:hover{
     background-color:#404b58e0 ;
 }
+
+.foot-panel2{
+    height: 500px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top:65px ;
+}
+
+ul a{
+    display: block;
+    color: #DDDDDD;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
