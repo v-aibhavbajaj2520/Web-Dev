@@ -246,12 +246,12 @@ span{
     width: 130px;
     object-fit:fill ;
 }
-
+/*
 .image2{
     background-image: url("Images/pic-1.jpg");
     background-size: cover;
 }
-
+*/
 .headset{
     color: rgb(32, 32, 35);
     position:absolute;
