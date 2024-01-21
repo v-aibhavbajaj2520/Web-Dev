@@ -149,7 +149,15 @@ span{
 
 .panel-ops{
     width: 94%;
-    font-size: 0.85rem;
+    font-size: 1rem;
+}
+
+.border1{
+    border: 2px solid transparent;
+}
+
+.border1:hover{
+    border: 2px solid white;
 }
 
 .panel-ops a{
