@@ -243,8 +243,8 @@ span{
 }
 
 .image1{
-    background-image: url("Images/Pic.jpg");
-    background-size: cover;
+    width: 130px;
+    object-fit:fill ;
 }
 
 .image2{
