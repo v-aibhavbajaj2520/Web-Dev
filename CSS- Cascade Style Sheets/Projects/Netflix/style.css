@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Poppins';
+    border: border-box;
+    text-decoration: none;
+}
+
+.bg-logo{
+    height: 800px;
+    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url("Images/header-image.png");
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+}
+
+.top-logo{
+    height: 60px;
+    width: 300px;
+    background-image: url("Images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 50% 63%;
+    position: absolute;
+    top: 23px;
+    left: 160px;
+}
