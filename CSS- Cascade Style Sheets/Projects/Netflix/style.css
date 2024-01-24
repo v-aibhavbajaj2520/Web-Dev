@@ -40,5 +40,19 @@
     font-size: 17px;    
 }
 
+.sign-in{
+    height: 26px;
+    width: 85px;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    top:31.5px;
+    right: 135px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius:4px ;
+    font-size: 17px;
+    font-weight: 650;
+}
 
 /** HEADER COMPLETE  **/
