@@ -85,4 +85,45 @@
     word-spacing: 0;
 }
 
+.email{
+    position: absolute;
+    top: 430px;
+    left: 375px;
+    height: 40px;
+    width: 380px;
+    font: 2rem;
+    background: rgba(84, 83, 83, 0.35);
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(126, 124, 124, 0.777);
+    color: #ffffff;
+}
+
+.email:focus-within{
+    border: 2px white solid;
+    font-weight: 500;
+}
+
+.email:focus-within::-webkit-input-placeholder{
+    font-size: 1rem;
+    position: relative;
+    top: -12px; 
+    transition: 1s ease-out;
+}
+
+.get-started{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    top:430px;
+    right: 410px;
+    background: rgba(255, 0, 0,0.8);
+    color: white;
+    border-radius:4px ;
+    font-size: 25px;
+    font-weight: 550;
+}
+
 /** HEADER COMPLETE  **/
