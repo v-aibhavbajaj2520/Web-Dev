@@ -55,4 +55,34 @@
     font-weight: 650;
 }
 
+.main-heading{
+    position: absolute;
+    top: 265px;
+    left: 215px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
+.sub-heading{
+    position: absolute;
+    top: 342px;
+    left: 490px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
+.last-heading{
+    position: absolute;
+    top: 387px;
+    left: 345px;
+    font-size: 23px;
+    font-weight: 200;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
 /** HEADER COMPLETE  **/
