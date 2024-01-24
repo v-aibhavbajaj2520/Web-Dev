@@ -5,9 +5,11 @@
     text-decoration: none;
 }
 
+
+/** HEADER START **/
 .bg-logo{
-    height: 800px;
-    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url("Images/header-image.png");
+    height: 670px;
+    background-image: linear-gradient( rgba(0,0,0,0.85),rgba(0,0,0,0.85)) ,url("Images/header-image.png");
     background-size: cover ;
     background-position: center;
     position: relative;
@@ -20,6 +22,108 @@
     background-repeat: no-repeat;
     background-size: 50% 63%;
     position: absolute;
-    top: 23px;
+    top: 25px;
     left: 160px;
 }
+
+.language{
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    position: absolute;
+    top:30px;
+    right: 240px;
+    background: rgba(84, 83, 83, 0.2);
+    color: white;
+    border-radius:6px ;
+    border: 0.3px #d7d3d3 solid;
+    font-size: 17px;    
+}
+
+.sign-in{
+    height: 26px;
+    width: 85px;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    top:31.5px;
+    right: 135px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius:4px ;
+    font-size: 17px;
+    font-weight: 650;
+}
+
+.main-heading{
+    position: absolute;
+    top: 265px;
+    left: 215px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
+.sub-heading{
+    position: absolute;
+    top: 342px;
+    left: 490px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
+.last-heading{
+    position: absolute;
+    top: 387px;
+    left: 345px;
+    font-size: 23px;
+    font-weight: 200;
+    color: #ffffff;
+    word-spacing: 0;
+}
+
+.email{
+    position: absolute;
+    top: 430px;
+    left: 375px;
+    height: 40px;
+    width: 380px;
+    font: 2rem;
+    background: rgba(84, 83, 83, 0.35);
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(126, 124, 124, 0.777);
+    color: #ffffff;
+}
+
+.email:focus-within{
+    border: 2px white solid;
+    font-weight: 500;
+}
+
+.email:focus-within::-webkit-input-placeholder{
+    font-size: 1rem;
+    position: relative;
+    top: -12px; 
+    transition: 1s ease-out;
+}
+
+.get-started{
+    height: 35px;
+    width: 190px;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    top:430px;
+    right: 410px;
+    background: rgba(255, 0, 0,0.8);
+    color: white;
+    border-radius:4px ;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+/** HEADER COMPLETE  **/
