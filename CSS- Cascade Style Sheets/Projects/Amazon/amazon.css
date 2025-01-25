@@ -738,3 +738,41 @@ ul a:hover{
     color: #DDDDDD;
     padding-top: 5px;
 }
+
+/* Responsive for mobile */
+@media  only screen and (max-width: 575px) {
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        height: 120px;
+    }
+    .nav-logo{
+        height: 30px;
+        width: 70px;
+    }
+    .logo{
+        height: 28px;
+        width: 100%;
+    }
+    .panel-all{
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .nav-address{
+        visibility: hidden;
+    }
+    .nav-search{
+        margin: 4px;
+        padding: 4px;
+    }
+    .nav-sign-in{
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+}
+
+
